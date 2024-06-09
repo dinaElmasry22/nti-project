@@ -1,0 +1,47 @@
+.eye-icon {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev-btn>i,
+.next-btn>i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    cursor: pointer;
+}
+
+.prev-btn>i:hover,
+.next-btn>i:hover {
+    opacity: 1;
+}
+
+.next-btn>i {
+    right: 15px;
+}
+.prev-btn>i {
+    left: 15px;
+}
+
+.images  {
+    height: 700px;
+    width: 100%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
